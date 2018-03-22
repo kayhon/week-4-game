@@ -1,31 +1,58 @@
-<!-- PortfolioPage 1: Front Page with About Me -->
-<!doctype html>
-<html lang="en-us">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-  <title>week-4-game</title>
+<DOCTYPE html>
+  <!-- Key - "generate" means defines a function-->
+  
+  <html lang="en">
+  <head>
+  <!--This can be the Bootstrap link-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--This can be the link to css file and css reset file goes here-->
+  
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-
-  <header>
-    
-  </header>
   
-<!-- Main section starts here -->
-
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2018 Kayhon Ahankoob
-    </div>
-  </footer>
-
-</body>
-</html>
+  
+  
+  <title>Its a game</title>
+  </head>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-12">
+  <body>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  
+  <p> Use the crystals to add up #s equal to the random below</p>
+  
+  <!--This can be the Overall bootstrap grid-->
+  <div class="btn-group">
+  
+  <button onclick="buttonOne()"><img src="assets/images/blue.png"></button>
+  <button onclick="buttonTwo()"><img src="assets/images/yellow.png"></button>
+  <button onclick="buttonThree()"><img src="assets/images/green.png"></button>
+  <button onclick="buttonFour()"><img src="assets/images/red.png"></button>
+  </div>
+  
+  <br><br>
+  <p id="totalScore"></p>
+  
+  <br><br>
+  <p>The main #.</p>
+  
+  
+  <p id="targetScore"></p>
+  
+  <br><br>
+  <p id="wins"></p>
+  <p id="losses"></p>
+  </p>
+  </div>
+  </div>
+  </div>
+  
+  <!--This can be thejQuery file-->
+  
+  <!--This can be the link to js file goes here-->
+  <script src="assets/javascript/game.js"></script>
+  </body>
+  </html>
+  
+  
