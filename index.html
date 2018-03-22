@@ -1,58 +1,74 @@
-<DOCTYPE html>
-  <!-- "generate" = defines a function-->
-  
-  <html lang="en">
-  <head>
-  <!--This can be the Bootstrap link-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Collect $$ for Pizza Time!</title>
+  <!-- Link to Reset CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+  <!-- Link to Latest compiled and minified CSS (Bootstrap) -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!--This can be the link to css file and css reset file goes here-->
-  
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
-  
-  
-  <title>Its a game</title>
-  </head>
-  <div class="container">
-  <div class="row">
-  <div class="col-md-12">
-  <body>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  
-  <p> click the crystals to add up #s equal to the random below</p>
-  
-  <!--This can be the Overall bootstrap grid-->
-  <div class="btn-group">
-  
-  <button onclick="buttonOne()"><img src="assets/images/blue.png"></button>
-  <button onclick="buttonTwo()"><img src="assets/images/yellow.png"></button>
-  <button onclick="buttonThree()"><img src="assets/images/green.png"></button>
-  <button onclick="buttonFour()"><img src="assets/images/red.png"></button>
-  </div>
-  
-  <br><br>
-  <p id="totalScore"></p>
-  
-  <br><br>
-  <p>The main #.</p>
-  
-  
-  <p id="targetScore"></p>
-  
-  <br><br>
-  <p id="wins"></p>
-  <p id="losses"></p>
-  </p>
-  </div>
-  </div>
-  </div>
-  
-  <!--This can be thejQuery file-->
-  
-  <!--This can be the link to js file goes here-->
-  <script src="assets/javascript/game.js"></script>
-  </body>
-  </html>
+  <!-- Link to Optional theme (Bootstrap) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Link to jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- Link to Latest compiled and minified Javascript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <div class="jumbotron text-center">
+    <h1>Collect $$ for 'Pizza Time'!</h1></div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 instructions">
+            <h2>Instructions</h2> 
+            <p>h dhdhdfghdfgh dfghdfghdfgh dfj fkghjkgkjg kg hk dfghdfgh dtyjfjfgjhdhdfghdfhjgfjfkfd j djfjghjfghj fj fgjhf </p>
+            <p>sdfgsg sdgfs  dgsdg sdfgsdfgsg sdfg sdfgsdgfsdgf sdfg dsgfjfg jfgjhfj fgjfjf jfjh</p>
+            <p>gsdfgsdgfsfdgsdfgsdgfsdgsdgsdfgdsfsgsdgfsdgghjfghjkhkghkghjkghjk</p>
+            <p>dsgssdfgsdgsdfgsdfgsdgsdfgsdgfsdfgsdgs</p>
+          </div>
+        </div>
+
+    <div class="row">
+      <div class="col-sm-9">
+        <h2>Cost for pizza: $<span id="orderToMatch"></span></h2>
+      </div>
+    <div class="col-sm-3">
+        <h3>Wins: <span id="wins"></span></h3>
+        <h3 class="text-left">Losses: <span id="losses"></span></h3>
+      </div>
+    </div>
+
+      <div class="row text-center">
+        <div class="col-sm-3">
+        <img src="assets/images/" class="" alt=""/>
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/  " class="" alt=""/>
+        </div>
+        <div class="col-sm-3">
+        <img src="assets/images/" class="" alt=""/>
+        </div>
+        <div class="col-sm-3">
+          <img src="assets/images/" class="" alt=""/>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+      <h2>Pizza costs: $<span id="totalScore"></span></h2>
+      </div>
+    </div>
+    </div>
+
+
+</body>
+<!-- Link to JS -->
+<script src="assets/javascript/game.js"></script> 
+</html>
   
   
