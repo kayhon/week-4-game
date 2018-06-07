@@ -1,0 +1,16 @@
+.jumbotron {
+    background-image: url("../images/jumbotron-bg.jpg");
+    font: Arial;
+    background-size: cover;
+    border: 2px solid black;
+  }
+    .jumbotron h1 {
+    color: #000;
+    text-shadow: 3px 3px #fff;
+    font: Arial;
+  
+  }
+   .instructions {
+    text-align: center; 
+    font: Arial;
+  }
